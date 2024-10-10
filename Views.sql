@@ -12,3 +12,4 @@ join fees f on s.student_id = f.student_id;
 select * from Female_Student;
 select * from Male_Student;
 select * from Student_Fees_Data;
+

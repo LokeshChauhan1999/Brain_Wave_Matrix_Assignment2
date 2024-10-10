@@ -9,6 +9,7 @@ select * from EXAMS;
 select * from FEES;
 
 --Selecting columns from the tables
+
 select STUDENT_ID, FIRST_NAME, LAST_NAME, DATE_OF_BIRTH, GENDER, EMAIL, PHONE_NUMBER from STUDENTS;
 select SUBJECT_ID, SUBJECT_NAME from SUBJECTS;
 select TEACHER_ID, FIRST_NAME, LAST_NAME, SUBJECT_ID, PHONE_NUMBER, EMAIL from TEACHERS;

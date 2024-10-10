@@ -9,3 +9,4 @@ where student_id in (select student_id from students);
 select * 
 from students 
 where student_id in (select student_id from attendance where status = 'Present');
+
